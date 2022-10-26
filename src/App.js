@@ -1,5 +1,6 @@
 import "./App.css";
 import ContactsComponent from "./components/container/contacts.component";
+import Square from "./components/container/Square";
 // import Clock from "./components/pure/Clock";
 // import MyClock from "./components/pure/MyClock";
 
@@ -22,8 +23,12 @@ function App() {
                 Crear contacto.
                 Eliminar contacto.
                 Cambiar el estado del contacto entre Conectado y Desconectado. */}
-            <div className="container-fluid d-flex justify-content-center align-items-center">
-                <ContactsComponent></ContactsComponent>
+            {/* <div className="container-fluid d-flex justify-content-center align-items-center"> */}
+                {/* <ContactsComponent></ContactsComponent> */}
+            {/* </div> */}
+            {/* Ejercicios sesiones 10, 11 y 12 */}
+            <div className="container-fluid d-flex justify-content-center align-items-center" style={{height: '100vh'}}>
+                <Square></Square>
             </div>
         </div>
     );
