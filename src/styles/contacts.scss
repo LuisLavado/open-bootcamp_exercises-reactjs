@@ -1,0 +1,48 @@
+#contactList {
+    width: 100%;
+}
+
+.wrap-btn-create {
+    width: 100px;
+}
+.wrap-adding {
+    width: calc(100% - 70px);
+    text-align: left;
+}
+
+.wrap-btn-create .btn { width: 70px; }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    #contactList {
+        width: 100%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #contactList {
+        width: 80%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    #contactList {
+        width: 70%;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    #contactList {
+        width: 60%;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    #contactList {
+        width: 50%;
+    }
+}
